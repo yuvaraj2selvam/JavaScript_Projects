@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	align-items: center;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 100%);
+	}
+
+
+.main-container{
+	background-color: white;
+	width: 100%;
+	max-width: 450px;
+	margin: 20px auto 20px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+}
+
+.top{
+	margin-left: 20px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+.img-icon{
+	margin-left:10px ;
+	width: 40px;
+	height: 40px;
+}
+
+.name{
+	display: flex;
+	color: black;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.mid{
+	display: flex;
+	margin-left: 30px;
+	margin-bottom:20px ;
+}
+.text-box{
+	flex: 1;
+	max-width: 300px;
+	height: 28px;
+	border-radius: 20px 0px 0px 20px ;
+	padding-left: 15px;
+}
+.add-btn{
+	padding: 7px;
+	border-radius: 0 20px 20px 0;
+	margin-left: -6;
+}
+
+.det-img{
+	width: 24px;
+	height: 24px;
+}
+
+.down{
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-tasks{
+	display: flex;
+	flex: 1;
+	margin-bottom: 10px;
+}
+
+.tasks{
+	display: flex;
+	align-items: center;
+	flex: 1;
+	max-width: 250px;
+}
+.det-img{
+	cursor: pointer;
+	margin-right: 15px;
+}
+.delete-btn{
+	border-radius: 20px;
+	cursor: pointer;
+}
+
